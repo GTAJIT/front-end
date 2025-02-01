@@ -1,0 +1,27 @@
+:root{
+    --bg-color:black;
+    --text-color:white;
+    --btn-color:blue;
+}
+.darkmode{
+    --bg-color:white;
+    --text-color:black;
+    --btn-color:green;
+}
+* {
+    inset: 0;
+    margin-left: 2 px;
+    margin-right: 2 px;
+    padding: 0;
+}
+#body{
+    background-color: var(--bg-color);
+}
+.text{
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+.text-small{
+    color: var(--text-color);
+    text-transform: capitalize;
+}
