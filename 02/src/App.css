@@ -1,0 +1,9 @@
+.text{
+  color: var(--text-color);
+  text-transform: uppercase;
+  
+}
+.text-small{
+  color: var(--text-color);
+  text-transform: capitalize;
+}

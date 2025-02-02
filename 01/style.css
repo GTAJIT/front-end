@@ -16,12 +16,14 @@
 }
 #body{
     background-color: var(--bg-color);
+    margin: 3rem;
 }
 .text{
     color: var(--text-color);
     text-transform: uppercase;
+    
 }
 .text-small{
-    color: var(--text-color);
+    /* color: var(--text-color); */
     text-transform: capitalize;
 }
