@@ -4,7 +4,7 @@ import logo from "./assets/logo.png"; // Ensure the correct path
 
 function App() {
   return (
-    <>
+    <div className="body">
       <section className="hero relative flex flex-col justify-between h-dvh">
         <header className="head flex justify-between ">
           <div className="logo cursor-pointer">
@@ -56,8 +56,8 @@ function App() {
             </div>
           </div>
         </header>
-        <section className="hero flex">
-          <section className="left-section flex flex-co justify-evenly">
+        <section className="hero flex justify-between">
+          <section className="left-section flex flex-co justify-evenly items-center">
             <div className="flex flex-col gap-3">
               <h1
                 className="text-small font-bold text-9xl w-dvh flex "
@@ -103,16 +103,9 @@ function App() {
 
           <section className="right-section">
             <div className="right-data">
-              <img src="" alt="right-logo" className="right-logo" />
-              <p className="text-small" id="mid-text">
-                Landing Page
-              </p>
-              <p className="text-small" id="small-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-                itaque maxime corporis, natus praesentium possimus. Sunt
-                exercitationem, quo sint illo enim veniam? Sequi nobis atque
-                beatae, unde quo temporibus.
-              </p>
+              <div className="hero-img">
+                <img src="./src/assets/hero.png" alt="coffy-pic" />
+              </div>
             </div>
           </section>
         </section>
@@ -127,7 +120,7 @@ function App() {
           </svg>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 
