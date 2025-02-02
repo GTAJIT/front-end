@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="body">
       <section className="hero relative flex flex-col justify-between h-dvh">
-        <header className="head flex justify-between ">
+        <header className="head flex justify-between sticky">
           <div className="logo cursor-pointer">
             <a href="#">
               <img src={logo} alt="logo" />
