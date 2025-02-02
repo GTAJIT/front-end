@@ -5,5 +5,27 @@
 }
 .text-small{
   color: var(--text-color);
-  text-transform: capitalize;
+  /* color: aqua; */
+  text-transform: capitalize; 
+}
+.sec-color{
+  color: var(--side-color);
+}
+.thr-color{
+  color: var(--thr-color);
+}
+.li-hover-color{
+  color: var(--text-color);
+}
+.li-hover-color:hover{
+  color: var(--btn-color);
+}
+.btn{
+  cursor: pointer;
+}
+.btn-color{
+  background-color: var(--btn-color);
+}
+.btn-color:hover{
+  background-color: var(--btn-color-hover);
 }
