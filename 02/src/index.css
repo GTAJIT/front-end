@@ -3,6 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
+  margin: 3rem;
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,9 +18,12 @@
 }
 
 :root{
-  --bg-color:#242424;
-  --text-color:rgba(255, 255, 255, 0.87);
-  --btn-color:blue;
+  --bg-color:#000000;
+  --text-color:#ffffff;
+  --btn-color:#4f51fb;
+  --btn-color-hover: #096dfa;
+  --side-color:#bd6dd0;
+  --thr-color:#7289cb;
 }
 * {
   inset: 0;
@@ -29,5 +33,4 @@
 }
 .hero{
   /* background-color: var(--bg-color); */
-  margin: 3rem;
 }
