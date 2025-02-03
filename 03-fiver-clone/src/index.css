@@ -1,1 +1,10 @@
-@import "./pages/styles/data.css"
+:root {
+    --bg-color: #ffffff;
+    --bg-color-hover: #f5f5f5;
+    --text-color: #222325;
+    --text-color-light: #62646a;
+    --unique-color: #1dbf73;
+    --bg-unique-color: #013a12;
+    --bottom-line-color:#e4e5e7;
+    --fill-color-logo:#404145;
+}
