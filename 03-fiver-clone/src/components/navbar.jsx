@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import "./navbar.css";
 
-const navbar = () => {
+function navbar() {
   return (
     <div className="header flex justify-center">
       <div className="navbar w-[1400px] flex justify-between h-20 items-center font-bold">
@@ -46,7 +46,11 @@ const navbar = () => {
                     </div>
                   </div>
                   <div className="dropdown-content-part flex border m-5 rounded-md dropdown-content-a">
-                    <img className="m-3" src="https://fiverr-res.cloudinary.com/npm-assets/layout-service/iam-freelancer.6e3c275.svg" alt=" " />
+                    <img
+                      className="m-3"
+                      src="https://fiverr-res.cloudinary.com/npm-assets/layout-service/iam-freelancer.6e3c275.svg"
+                      alt=" "
+                    />
                     <div className="dropdown-text">
                       <p className="">I want to offer Pro services</p>
                       <a className="about">
@@ -66,31 +70,45 @@ const navbar = () => {
                 <div className="dropdown-content w-[375px]">
                   <div className="dropdown-content-a">
                     <p className="">Answers</p>
-                    <a href="#" className="about">Powered by AI, answered by fiverr freelancers</a>
+                    <a href="#" className="about">
+                      Powered by AI, answered by fiverr freelancers
+                    </a>
                   </div>
                   <div className="dropdown-content-a">
                     <p className="">Community</p>
-                    <a href="#" className="about">Connect with Fiverr&apos;s team and community</a>
+                    <a href="#" className="about">
+                      Connect with Fiverr&apos;s team and community
+                    </a>
                   </div>
                   <div className="dropdown-content-a">
                     <p className="">Guides</p>
-                    <a href="#" className="about">In-depth guides convering business topics</a>
+                    <a href="#" className="about">
+                      In-depth guides convering business topics
+                    </a>
                   </div>
                   <div className="dropdown-content-a">
                     <p className="">Podcast</p>
-                    <a href="#" className="about">Inside tips from top business minds</a>
+                    <a href="#" className="about">
+                      Inside tips from top business minds
+                    </a>
                   </div>
                   <div className="dropdown-content-a">
                     <p className="">Learn</p>
-                    <a href="#" className="about">Professional online courses, led by experts</a>
+                    <a href="#" className="about">
+                      Professional online courses, led by experts
+                    </a>
                   </div>
                   <div className="dropdown-content-a">
                     <p className="">Blog</p>
-                    <a href="#" className="about">News, information and comuunity stories</a>
+                    <a href="#" className="about">
+                      News, information and comuunity stories
+                    </a>
                   </div>
                   <div className="dropdown-content-a">
                     <p className="">Logo Maker</p>
-                    <a href="#" className="about">Create your logo instantly</a>
+                    <a href="#" className="about">
+                      Create your logo instantly
+                    </a>
                   </div>
                 </div>
               </div>
@@ -135,6 +153,6 @@ const navbar = () => {
       </div>
     </div>
   );
-};
+}
 
 export default navbar;
