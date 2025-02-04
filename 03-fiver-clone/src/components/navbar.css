@@ -41,7 +41,7 @@
     fill: var(--text-color-light);
 }
 .fill-text-color:hover{
-    fill: var()
+    fill: var(--unique-color)
 }
 .dropbtn {
     border: none;
