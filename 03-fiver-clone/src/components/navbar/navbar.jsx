@@ -9,7 +9,8 @@ import Language from "./elements/language";
 function navbar() {
   return (
     <div className="header flex justify-center">
-      <div className="navbar w-[1400px] flex justify-between h-20 items-center font-bold">
+      {/* <div className="navbar w-[1400px] flex justify-between h-20 items-center font-bold"> */}
+      <div className="navbar w-full max-w-[1400px] flex justify-between h-20 items-center font-bold px-4">
         <Logo />
         <div className="right-header flex items-center justify-center">
           <ul className="nav flex gap-5 items-center justify-center text-md">

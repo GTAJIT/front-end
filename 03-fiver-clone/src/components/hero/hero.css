@@ -1,25 +1,45 @@
-.hero{
+.hero-container {
     background-color: var(--bg-unique-color);
-    background: url(https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/84c449beda884aa8f9f72023e2d8b3fd-1705308514872/hero-lg-x1.png );
-    background-size: contain;
-    background-repeat: no-repeat;
+    /* min-height: 100vh; */
 }
-.hero-data-text{
+
+.hero {
+    background-color: var(--bg-unique-color);
+    background: url(https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/84c449beda884aa8f9f72023e2d8b3fd-1705308514872/hero-lg-x1.png);
+    background-size: cover; /* Changed from contain to cover for better responsive behavior */
+    background-position: center; /* Added to ensure proper image positioning */
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+.hero-data-text {
     color: var(--bg-color);
 }
-.font-i{
-    font-family: "DomaineDisplay", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+.font-i {
+    font-family: "DomaineDisplay", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.btn-icon{
+
+.btn-icon {
     fill: var(--bg-color);
 }
-.search-bg{
+
+.search-bg {
     background-color: var(--bg-color);
 }
-.search-btn{
+
+.search-btn {
     background-color: var(--bg-unique-color);
 }
-.search{
+.search-btn:hover{
+    .btn-icon{
+        scale: 1.15;
+        transition: ease-in-out;
+        animation-duration: 5ms;
+    }
+}
+
+.search {
     fill: var(--text-color);
     color: var(--text-color);
 }
