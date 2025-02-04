@@ -1,4 +1,4 @@
-@import "../index.css";
+/* @import "../index.css"; */
 
 .bg-unique-color {
     color: var(--unique-color);
@@ -92,4 +92,10 @@
     color: var(--text-color-light);
     font-size: 14px;
     line-height: 21px;
+}
+.group:hover .list-text,
+.group:hover .fill-text-color {
+    color: var(--unique-color);
+    fill: var(--unique-color);
+    transition: ease-in-out 150ms;
 }
