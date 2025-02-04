@@ -1,1 +1,25 @@
-@import "../index.css";
+.hero{
+    background-color: var(--bg-unique-color);
+    background: url(https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/84c449beda884aa8f9f72023e2d8b3fd-1705308514872/hero-lg-x1.png );
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hero-data-text{
+    color: var(--bg-color);
+}
+.font-i{
+    font-family: "DomaineDisplay", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn-icon{
+    fill: var(--bg-color);
+}
+.search-bg{
+    background-color: var(--bg-color);
+}
+.search-btn{
+    background-color: var(--bg-unique-color);
+}
+.search{
+    fill: var(--text-color);
+    color: var(--text-color);
+}

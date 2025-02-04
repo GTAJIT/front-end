@@ -2,6 +2,14 @@
 
 .body {
     font: 400 16px / 24px Macan, Helvetica Neue, Helvetica, Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.body-data{
+    margin: 50px 250px;
+    /* width: 1400px; */
+    /* display: flex; */
+    justify-content: center;
 }
 /* margin: 0px 80px;
 padding: 0px 26px; */
