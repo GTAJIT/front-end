@@ -16,22 +16,22 @@
     --theme-color-hover: #57a800; 
     --texture-color: #D89B5A; 
     --shadow:rgba(255, 255, 255, 0.1);
-    --box-color:#0f0f0f;
+    --box-color:#0e0e0e;
     --box-color-hover:#1f1f1f;
 
     --font-primary: 'Poppins', sans-serif;
     --font-secondary: 'Roboto', sans-serif;
 }
 .darkmode{
-    --bg-color: #ffffff;
+    --bg-color: #f3f3f3;
     --bg-color-light: #f5f5f5;
     --text-color: #0e0e0e;
     --text-color-hover: #000000; 
-    --theme-color: #57a800;
-    --theme-color-hover: #438100;
+    /* --theme-color: #57a800;
+    --theme-color-hover: #438100; */
     --texture-color: #8a571b;
     --shadow:rgba(0, 0, 0, 0.1);
-    --box-color:#f0f0f0;
+    --box-color:#fefefe;
     --box-color-hover:#eaeaea;
 }
 body {
