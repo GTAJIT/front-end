@@ -40,3 +40,9 @@
     font-family: "Macan", "helvertica Neue", Arial, Helvetica, sans-serif;
     margin-top: 10px;
 }
+
+.pop-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
