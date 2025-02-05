@@ -1,4 +1,5 @@
 import Features from "./elements/feauters";
+import Popular from "./elements/popular";
 import "./main.css";
 
 function Main() {
@@ -6,6 +7,7 @@ function Main() {
     <>
       <div className="">
         <Features/>
+        <Popular/>
       </div>
     </>
   );

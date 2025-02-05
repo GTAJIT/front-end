@@ -5,7 +5,7 @@ import Search from "./elements/search";
 function hero() {
   return (
     <div className="hero-container w-full flex justify-center rounded-2xl">
-      <div className="hero h-[600px] w-full max-w-[1400px] rounded-2xl flex items-start pt-[150px] justify-center">
+      <div className="hero h-[600px] w-full max-w-[1400px] rounded-2xl flex items-stat pt-[150px] justify-center">
         <div className="hero-data">
           <div className="hero-data-text flex flex-col justify-center items-center">
             <div className="text-center">

@@ -7,9 +7,8 @@
 }
 .body-data{
     padding-top: 50px;
-    width: 100%;
-    max-width: 1400px; /* Changed from fixed width */
-    margin: 0 auto; /* Center horizontally */
+    width: 1400px;
+    margin: 0 auto;
     display: flex;
     justify-content: baseline;
     align-items: center;

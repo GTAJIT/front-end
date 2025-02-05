@@ -4,12 +4,12 @@
 }
 
 .hero {
-    background-color: var(--bg-unique-color);
-    background: url(https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/84c449beda884aa8f9f72023e2d8b3fd-1705308514872/hero-lg-x1.png);
-    background-size: cover; /* Changed from contain to cover for better responsive behavior */
-    background-position: center; /* Added to ensure proper image positioning */
+    /* background-color: var(--bg-unique-color); */
+    background: url(https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/678686c47c024e18e773c75e90aaab1c-1705999902381/hero-xl-x1.png);
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 550px;
+    height: 500px;
 }
 
 .hero-data-text {

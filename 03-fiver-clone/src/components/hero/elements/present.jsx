@@ -1,7 +1,7 @@
 function Presents() {
   return (
     <div className="w-full">
-      <div className="presents flex items-center justify-center mt-35 opacity-[0.5] gap-10 flex-wrap">
+      <div className="presents flex items-center justify-center mt-20 opacity-[0.5] gap-10 flex-wrap">
         <span className="text-center">Trusted by:</span>
         <ul className="flex gap-5 items-center flex-wrap justify-center">
           <li>
