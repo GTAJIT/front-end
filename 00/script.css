@@ -18,6 +18,7 @@
     --shadow:rgba(255, 255, 255, 0.1);
     --box-color:#0e0e0e;
     --box-color-hover:#1f1f1f;
+    --btn-text-color:#E4E4E4;
 
     --font-primary: 'Poppins', sans-serif;
     --font-secondary: 'Roboto', sans-serif;
@@ -43,7 +44,7 @@ body {
 
 /* Header and navigation */
 header {
-    background-color: var(--bg-color);
+    background-color: var(--bg-color-light);
     padding: 1rem;
     position: fixed;
     width: 100%;
@@ -62,12 +63,18 @@ nav {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 1.8rem;
     font-weight: bold;
     color: var(--theme-color-hover);
     font-family: var(--font-secondary);
     cursor: pointer;
     animation: fadeIn 1s ease-in;
+}
+.logo-img{
+    height: 50px;
 }
 
 nav ul {
@@ -158,7 +165,7 @@ h3 {
 .cta-button {
     display: inline-block;
     background-color: var(--theme-color);
-    color: var(--text-color);
+    color: var(--btn-text-color);
     padding: 0.8rem 1.5rem;
     text-decoration: none;
     border-radius: 5px;
@@ -230,6 +237,8 @@ h2{
 }
 .tech-item:hover{
     background-color: var(--box-color-hover);
+    scale: 1.03;
+    transition: ease-in-out 0.15s;
 }
 
 /* Contact section */
