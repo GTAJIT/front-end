@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="./Untitled design.svg" />
+    <title>MUZ</title>
+    <link rel="stylesheet" href="script.css">
+</head>
+<body id="body" class="darkmode">
+    <header>
+        <nav>
+            <div class="logo">MUZ</div>
+            <button id="menu-toggle" hidden class="menu-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#market">Market</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button type="button" id="theme-switch" class="btn">Theme-Switch</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section id="hero">
+            <h1>Revolutionizing Packaging with Banana Fiber</h1>
+            <p>Eco-friendly, durable, and cost-effective packaging solutions for a sustainable future.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </section>
+
+        <section class="about">
+            <h2>About MUZ</h2>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <h3>Our Product</h3>
+                    <p>Packaging boxes made from banana fiber, an eco-friendly alternative to plastic and paper.</p>
+                </div>
+                <div class="flex-item">
+                    <h3>Our Impact</h3>
+                    <p>Reduces waste, carbon footprint, and reliance on non-renewable resources.</p>
+                </div>
+                <div class="flex-item">
+                    <h3>Sustainability</h3>
+                    <p>Uses agricultural waste, minimizing deforestation and import dependency.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="solutions">
+            <h2>Our Solutions</h2>
+            <ul>
+                <li class="sol-text">Biodegradable & Strong: Competitive alternative to plastic</li>
+                <li class="sol-text">Cost-Effective: Suitable for large-scale packaging</li>
+                <li class="sol-text">Utilizes Agricultural Waste: Converts banana stems into packaging</li>
+                <li class="sol-text">Reduces Deforestation: Replaces wood pulp with banana fiber</li>
+                <li class="sol-text">Creates Rural Jobs: Supports farmers in banana-growing states</li>
+                <li class="sol-text">Local Production: Reduces shipping costs, supports "Make in India"</li>
+            </ul>
+        </section>
+
+        <section id="market">
+            <h2>Target Market</h2>
+            <div class="chart-container">
+                <canvas id="marketChart"></canvas>
+            </div>
+        </section>
+
+        <section id="technology">
+            <h2>Our Technology</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h3>Fiber Extraction</h3>
+                    <p>Eco-friendly, high-speed machines</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Biodegradable Coatings</h3>
+                    <p>Natural coatings for durability</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Automation</h3>
+                    <p>AI-driven packaging production</p>
+                </div>
+                <div class="tech-item">
+                    <h3>IoT Monitoring</h3>
+                    <p>Performance optimization</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 MUZ Packaging. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
