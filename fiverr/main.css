@@ -45,14 +45,7 @@
     margin-top: 10px;
 }
 
-.text-head{
-    color: var(--text-color);
-    font-size: 45px;
-    line-height: 50px;
-    font-weight: 700;
-    margin-top: 40px;
-    margin-bottom: 20x;
-}
+
 .pop-top {
     max-width: 1400px;
     display: flex;
@@ -60,7 +53,7 @@
     scroll-behavior: smooth;
     position: relative;
     align-items: center;
-    /* pointer-events: none; */
+    pointer-events: none;
 }
 
 .pop-top::-webkit-scrollbar {

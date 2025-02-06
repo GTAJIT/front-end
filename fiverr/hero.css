@@ -1,0 +1,45 @@
+.hero-container {
+    background-color: var(--bg-unique-color);
+    /* min-height: 100vh; */
+}
+
+.hero {
+    /* background-color: var(--bg-unique-color); */
+    background: url(https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/678686c47c024e18e773c75e90aaab1c-1705999902381/hero-xl-x1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.hero-data-text {
+    color: var(--bg-color);
+}
+
+.font-i {
+    font-family: "DomaineDisplay", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn-icon {
+    fill: var(--bg-color);
+}
+
+.search-bg {
+    background-color: var(--bg-color);
+}
+
+.search-btn {
+    background-color: var(--bg-unique-color);
+}
+.search-btn:hover{
+    .btn-icon{
+        scale: 1.15;
+        transition: ease-in-out;
+        animation-duration: 5ms;
+    }
+}
+
+.search {
+    fill: var(--text-color);
+    color: var(--text-color);
+}

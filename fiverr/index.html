@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./fiverr-logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiverr-clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="darkmode">
+    <div class="body">
+        <div class="header flex justify-center">
+            <div class="navbar w-full max-w-[1400px] flex justify-between h-20 items-center font-bold px-4">
+                <div class="logo">
+                    <link href="/" class="font-bold">
+                    <svg width="89" height="27" viewBox="0 0 89 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g class="fill-color-logo">
+                            <path
+                                d="m81.6 13.1h-3.1c-2 0-3.1 1.5-3.1 4.1v9.3h-6v-13.4h-2.5c-2 0-3.1 1.5-3.1 4.1v9.3h-6v-18.4h6v2.8c1-2.2 2.3-2.8 4.3-2.8h7.3v2.8c1-2.2 2.3-2.8 4.3-2.8h2zm-25.2 5.6h-12.4c.3 2.1 1.6 3.2 3.7 3.2 1.6 0 2.7-.7 3.1-1.8l5.3 1.5c-1.3 3.2-4.5 5.1-8.4 5.1-6.5 0-9.5-5.1-9.5-9.5 0-4.3 2.6-9.4 9.1-9.4 6.9 0 9.2 5.2 9.2 9.1 0 .9 0 1.4-.1 1.8zm-5.7-3.5c-.1-1.6-1.3-3-3.3-3-1.9 0-3 .8-3.4 3zm-22.9 11.3h5.2l6.6-18.3h-6l-3.2 10.7-3.2-10.8h-6zm-24.4 0h5.9v-13.4h5.7v13.4h5.9v-18.4h-11.6v-1.1c0-1.2.9-2 2.2-2h3.5v-5h-4.4c-4.3 0-7.2 2.7-7.2 6.6v1.5h-3.4v5h3.4z">
+                            </path>
+                        </g>
+                        <g class="fill-color-logo-dot">
+                            <path d="m85.3 27c2 0 3.7-1.7 3.7-3.7s-1.7-3.7-3.7-3.7-3.7 1.7-3.7 3.7 1.7 3.7 3.7 3.7z">
+                            </path>
+                        </g>
+                    </svg>
+                    </link>
+                </div>
+                <div class="right-header flex items-center justify-center">
+                    <ul class="nav flex gap-5 items-center justify-center text-md">
+                        <li class="list-text " id="list1">
+                            <div class="dropdown">
+                                <div class="bgHover ">
+                                    <button class="dropbtn capitalize">fiverr pro </button>
+                                </div>
+                                <div class="dropdown-content w-[450px]">
+                                    <div
+                                        class="dropdown-content-part flex border m-5 rounded-md dropdown-content-a">
+                                        <img src="https://fiverr-res.cloudinary.com/npm-assets/layout-service/hire-freelancer.e3fcf5a.svg"
+                                            class="m-3 " />
+                                        <div class="dropdown-text">
+                                            <p class="">I&apos;m looking to hire</p>
+                                            <a class="about">
+                                                My team needs vetted freelance talent and a premium business
+                                                solution.
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="dropdown-content-part flex border m-5 rounded-md dropdown-content-a">
+                                        <img class="m-3"
+                                            src="https://fiverr-res.cloudinary.com/npm-assets/layout-service/iam-freelancer.6e3c275.svg"
+                                            alt=" " />
+                                        <div class="dropdown-text">
+                                            <p class="">I want to offer Pro services</p>
+                                            <a class="about">
+                                                I&apos;d like to work on business projects as a Pro freelancer or
+                                                arency.
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-text " id="list2">
+                            <div class="dropdown">
+                                <div class="bgHover ">
+                                    <button class="dropbtn capitalize">explore </button>
+                                </div>
+                                <div class="dropdown-content w-[375px]">
+                                    <div class="dropdown-content-a">
+                                        <p class="">Answers</p>
+                                        <a href="#" class="about">
+                                            Powered by AI, answered by fiverr freelancers
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-content-a">
+                                        <p class="">Community</p>
+                                        <a href="#" class="about">
+                                            Connect with Fiverr&apos;s team and community
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-content-a">
+                                        <p class="">Guides</p>
+                                        <a href="#" class="about">
+                                            In-depth guides convering business topics
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-content-a">
+                                        <p class="">Podcast</p>
+                                        <a href="#" class="about">
+                                            Inside tips from top business minds
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-content-a">
+                                        <p class="">Learn</p>
+                                        <a href="#" class="about">
+                                            Professional online courses, led by experts
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-content-a">
+                                        <p class="">Blog</p>
+                                        <a href="#" class="about">
+                                            News, information and comuunity stories
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-content-a">
+                                        <p class="">Logo Maker</p>
+                                        <a href="#" class="about">
+                                            Create your logo instantly
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="" id="list3">
+                            <div class="group flex items-center space-x-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                                    class="fill-text-color">
+                                    <path
+                                        d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z">
+                                    </path>
+                                </svg>
+                                <a href="#" class="list-text">
+                                    English
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list" id="list4">
+                            <Link to="/seller" class="list-text">
+                            Became a Seller
+                            </Link>
+                        </li>
+                        <li class="list" id="list5">
+                            <Link to="/Login" class="list-text capitalize">
+                            sign in
+                            </Link>
+                        </li>
+                        <li class="list-text-color flex border rounded-sm pr-3 pl-3 pt-1 pb-1 h-auto items-center"
+                            id="list6">
+                            <Link to="/Login" class="capitalize">
+                            join
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="body-data flex flex-col">
+            <div class="hero-container w-full flex justify-center rounded-2xl">
+                <div
+                    class="hero h-[600px] w-full max-w-[1400px] rounded-2xl flex items-stat pt-[150px] justify-center">
+                    <div class="hero-data">
+                        <div class="hero-data-text flex flex-col justify-center items-center">
+                            <div class="text-center">
+                                <h1
+                                    class="text-[40px] md:text-[60px] font-normal tracking-tight leading-[1.1] max-w-[800px] px-4">
+                                    Scale your Professional
+                                    <br />
+                                    workforce with freelancers
+                                </h1>
+                            </div>
+                            <div class="search-bg rounded-md flex justify-between mt-5 w-full max-w-[700px] mx-4">
+                                <input class="search z-10 m-3 w-full border-none outline-none"
+                                    placeholder="Search for any services..."></input>
+                                <button class="search-btn p-3 m-1.5 rounded-md cursor-pointer" type="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                                        viewBox="0 0 25 25" class="btn-icon">
+                                        <path
+                                            d="M 10 0.1875 C 4.578125 0.1875 0.1875 4.578125 0.1875 10 C 0.1875 15.421875 4.578125 19.8125 10 19.8125 C 12.289063 19.8125 14.394531 19.003906 16.0625 17.6875 L 16.9375 18.5625 C 16.570313 19.253906 16.699219 20.136719 17.28125 20.71875 L 21.875 25.34375 C 22.589844 26.058594 23.753906 26.058594 24.46875 25.34375 L 25.34375 24.46875 C 26.058594 23.753906 26.058594 22.589844 25.34375 21.875 L 20.71875 17.28125 C 20.132813 16.695313 19.253906 16.59375 18.5625 16.96875 L 17.6875 16.09375 C 19.011719 14.421875 19.8125 12.300781 19.8125 10 C 19.8125 4.578125 15.421875 0.1875 10 0.1875 Z M 10 2 C 14.417969 2 18 5.582031 18 10 C 18 14.417969 14.417969 18 10 18 C 5.582031 18 2 14.417969 2 10 C 2 5.582031 5.582031 2 10 2 Z M 4.9375 7.46875 C 4.421875 8.304688 4.125 9.289063 4.125 10.34375 C 4.125 13.371094 6.566406 15.8125 9.59375 15.8125 C 10.761719 15.8125 11.859375 15.433594 12.75 14.8125 C 12.511719 14.839844 12.246094 14.84375 12 14.84375 C 8.085938 14.84375 4.9375 11.695313 4.9375 7.78125 C 4.9375 7.675781 4.933594 7.574219 4.9375 7.46875 Z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="w-full">
+                                <div
+                                    class="presents flex items-center justify-center mt-20 opacity-[0.5] gap-10 flex-wrap">
+                                    <span class="text-center">Trusted by:</span>
+                                    <ul class="flex gap-5 items-center flex-wrap justify-center">
+                                        <li>
+                                            <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/meta.ff37dd3.svg"
+                                                alt="meta" width="70" height="14" />
+                                        </li>
+                                        <li>
+                                            <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/google.e74f4d9.svg"
+                                                alt="Google" width="53.41" height="17.87" />
+                                        </li>
+                                        <li>
+                                            <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/netflix.b310314.svg"
+                                                alt="NETFLIX" width="53.64" height="14.37" />
+                                        </li>
+                                        <li>
+                                            <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/pg.22fca85.svg"
+                                                alt="P&amp;G" width="33.13" height="13.8" />
+                                        </li>
+                                        <li>
+                                            <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/paypal.d398de5.svg"
+                                                alt="PayPal" width="53.01" height="12.69" />
+                                        </li>
+                                        <li>
+                                            <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/payoneer.7c1170d.svg"
+                                                alt="Payoneer" width="82.42" height="16" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="box-container flex justify-between w-[1400px]">
+                    <div class="box ">
+                        <div class="box-data">
+                            <div class="box-icon">
+                                <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/programming-tech-thin.56382a2.svg"
+                                    alt="programming_tech" loading="lazy" class="box-icon-img" />
+                            </div>
+                            <div class="box-text">programing & tech</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-data">
+                            <div class="box-icon">
+                                <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/graphics-design-thin.ff38893.svg"
+                                    alt="programming_tech" loading="lazy" class="box-icon-img" />
+                            </div>
+                            <div class="box-text">graphics & design</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-data">
+                            <div class="box-icon">
+                                <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/digital-marketing-thin.68edb44.svg"
+                                    alt="programming_tech" loading="lazy" class="box-icon-img" />
+                            </div>
+                            <div class="box-text">digital marketing</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-data">
+                            <div class="box-icon">
+                                <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/writing-translation-thin.fd3699b.svg"
+                                    alt="programming_tech" loading="lazy" class="box-icon-img" />
+                            </div>
+                        </div>
+                        <div class="box-text">writting & translation</div>
+                    </div>
+                    <div class="box">
+                        <div class="box-data">
+                            <div class="box-icon">
+                                <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/video-animation-thin.9d3f24d.svg"
+                                    alt="programming_tech" loading="lazy" class="box-icon-img" />
+                            </div>
+                        </div>
+                        <div class="box-text">video & animation</div>
+                    </div>
+                    <div class="box">
+                        <div class="box-data">
+                            <div class="box-icon">
+                                <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/ai-services-thin.104f389.svg"
+                                    alt="programming_tech" loading="lazy" class="box-icon-img" />
+                            </div>
+                        </div>
+                        <div class="box-text">ai services</div>
+                    </div>
+                    <div class="box">
+                        <div class="box-data">
+                            <div class="box-icon">
+                                <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/music-audio-thin.43a9801.svg"
+                                    alt="programming_tech" loading="lazy" class="box-icon-img" />
+                            </div>
+                        </div>
+                        <div class="box-text">music & audio</div>
+                    </div>
+                    <div class="box">
+                        <div class="box-data">
+                            <div class="box-icon">
+                                <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/business-thin.885e68e.svg"
+                                    alt="programming_tech" loading="lazy" class="box-icon-img" />
+                            </div>
+                        </div>
+                        <div class="box-text">business</div>
+                    </div>
+                    <div class="box">
+                        <div class="box-data">
+                            <div class="box-icon">
+                                <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/consulting-thin.d5547ff.svg"
+                                    alt="programming_tech" loading="lazy" class="box-icon-img" />
+                            </div>
+                        </div>
+                        <div class="box-text">consulting</div>
+                    </div>
+                </div>
+                <div class="pop">
+                    <div class="pop-text">Popular services</div>
+                    <div class="pop-top">
+                        <button class="backward-btn pop-btn-color">
+                            <svg class="arrows" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path
+                                    d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+                            </svg>
+                        </button>
+                        <div class="pop-sec-merg flex">
+                            <div class="pop-section">
+                                <div class="pop-section-data" id="pop-img-1">
+                                    <p class="pop-text capitalize">website development</p>
+                                    <img class="pop-img"
+                                        src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_188,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156477/website-development.png"
+                                        alt="pop-404" />
+                                </div>
+                                <div class="pop-section-data" id="pop-img-2">
+                                    <p class="pop-text capitalize">logo design</p>
+                                    <img class="pop-img"
+                                        src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_188,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156494/logo-design.png"
+                                        alt="pop-404" />
+                                </div>
+                                <div class="pop-section-data" id="pop-img-3">
+                                    <p class="pop-text capitalize">SEO</p>
+                                    <img class="pop-img"
+                                        src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_188,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156488/seo.png"
+                                        alt="pop-404" />
+                                </div>
+                                <div class="pop-section-data" id="pop-img-4">
+                                    <p class="pop-text capitalize">
+                                        architecture & interior design
+                                    </p>
+                                    <img class="pop-img "
+                                        src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_188,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156473/architecture-design.png"
+                                        alt="pop-404" />
+                                </div>
+                                <div class="pop-section-data" id="pop-img-5">
+                                    <p class="pop-text capitalize">social media marketing</p>
+                                    <img class="pop-img"
+                                        src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_188,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156476/social-media-marketing.png"
+                                        alt="pop-404" />
+                                </div>
+                                <div class="pop-section-data" id="pop-img-6">
+                                    <p class="pop-text capitalize">voice over</p>
+                                    <img class="pop-img"
+                                        src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_188,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156479/voice-over.png"
+                                        alt="pop-404" />
+                                </div>
+                            </div>
+                            <div class="pop-section">
+                                <div class="pop-section-data" id="pop-img-7">
+                                    <p class="pop-text capitalize">UGC videos</p>
+                                    <img class="pop-img"
+                                        src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_188,dpr_1.0/v1/attachments/generic_asset/asset/ece24f7f595e2dd44b26567705d1c600-1728279781879/UGC%20Video%20img.png"
+                                        alt="pop-404" />
+                                </div>
+                                <div class="pop-section-data" id="pop-img-8">
+                                    <p class="pop-text capitalize">software development</p>
+                                    <img class="pop-img"
+                                        src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_188,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156476/software-development.png"
+                                        alt="pop-404" />
+                                </div>
+                                <div class="pop-section-data" id="pop-img-9">
+                                    <p class="pop-text capitalize">data science & ML</p>
+                                    <img class="pop-img"
+                                        src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_188,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156495/data-science.png"
+                                        alt="pop-404" />
+                                </div>
+                                <div class="pop-section-data" id="pop-img-10">
+                                    <p class="pop-text capitalize">product photography</p>
+                                    <img class="pop-img"
+                                        src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_188,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156481/product-photography.png"
+                                        alt="pop-404" />
+                                </div>
+                                <div class="pop-section-data" id="pop-img-11">
+                                    <p class="pop-text capitalize">E-Commerce marketing</p>
+                                    <img class="pop-img"
+                                        src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_188,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156474/e-commerce.png"
+                                        alt="pop-404" />
+                                </div>
+                                <div class="pop-section-data" id="pop-img-12">
+                                    <p class="pop-text capitalize">video editing</p>
+                                    <img class="pop-img"
+                                        src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_188,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156494/video-editing.png"
+                                        alt="pop-404" />
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="forward-btn pop-btn-color">
+                            <svg class="arrows" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path
+                                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="script.js"></script>
+<script type="module" src="darkmode.js"></script>
+
+</html>
