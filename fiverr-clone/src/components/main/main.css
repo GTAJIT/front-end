@@ -45,10 +45,15 @@
     margin-top: 10px;
 }
 
+
 .pop-top {
     max-width: 1400px;
     display: flex;
-    overflow-x: scroll;
+    overflow-x: auto;  /* Change from scroll to auto */
+    scroll-behavior: smooth;
+    position: relative;
+    align-items: center;
+    /* pointer-events: none; */
 }
 
 .pop-top::-webkit-scrollbar {
@@ -62,33 +67,144 @@
     grid-gap: 20px;
     padding: 10px;
     flex: none;
+    overflow-x: auto;
+    align-items: center;
+    white-space: nowrap;
 }
 
-.pop-section img {
+.pop-section-data {
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 188px;
+    min-height: 235px;
+    border-radius: 20px;
+    margin: 12px 4px;
+    padding: 15px 6px 6px;
+    cursor: pointer;
+
+}
+
+.pop-text {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    padding: 0 10px;
+    color: var(--bg-color);
+}
+
+.pop-img {
     width: 100%;
+    max-width: 188px;
+    border-radius: 12px;
+    display: block;
+    object-fit: cover;
 }
-
 
 /* arrow-btn */
-.icon {
+
+.pop-btn-color {
     cursor: pointer;
-    width: 20px;
-}
-.btn-color{
     box-shadow: var(--box-shadow);
     background-color: var(--bg-color);
     width: 70px;
-    border-radius:50px;
+    border-radius: 50px;
 }
-.arrows{
+
+.arrows {
     margin: 10px;
-    padding:10px;
+    padding: 10px;
     fill: var(--text-color);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.backward-btn:hover, .forward-btn:hover{
-    scale: 1.05;
-    transition: ease-in-out 0.25s;
+.backward-btn, .forward-btn{
+    position: absolute; /* Stays within .pop-top */
+    top: 50%;
+    transform: translateY(-50%); /* Centers vertically */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    z-index: 10; /* Keeps them on top */
+    pointer-events: auto; /* Ensures buttons remain clickable */
 }
+/* Left button */
+.backward-btn {
+    left: 0px; /* Adjust spacing as needed */
+}
+
+/* Right button */
+.forward-btn {
+    right: 0px; /* Adjust spacing as needed */
+}
+
+.backward-btn:hover,
+.forward-btn:hover {
+    filter: brightness(1.2);
+    transition: ease-in-out 0.25s;
+    transform: translateY(-50%) scale(1.1);
+}
+
+/* color-mesh */
+#pop-img-1 {
+    background-color: var(--pop-1-bg);
+}
+
+#pop-img-2 {
+    background-color: var(--pop-2-bg);
+}
+
+#pop-img-3 {
+    background-color: var(--pop-3-bg);
+}
+
+#pop-img-4 {
+    background-color: var(--pop-4-bg);
+}
+
+#pop-img-5 {
+    background-color: var(--pop-5-bg);
+}
+
+#pop-img-6 {
+    background-color: var(--pop-6-bg);
+}
+
+#pop-img-7 {
+    background-color: var(--pop-7-bg);
+}
+
+#pop-img-8 {
+    background-color: var(--pop-8-bg);
+}
+
+#pop-img-9 {
+    background-color: var(--pop-9-bg);
+}
+
+#pop-img-10 {
+    background-color: var(--pop-10-bg);
+}
+
+#pop-img-11 {
+    background-color: var(--pop-11-bg);
+}
+
+#pop-img-12 {
+    background-color: var(--pop-12-bg);
+}
+
+.pop-section-data:hover {
+    filter: brightness(1.08);
+    transition: all 0.15s ease-in-out;
+    transform: scale(1.04);
+}
+

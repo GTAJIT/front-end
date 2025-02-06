@@ -8,5 +8,22 @@
     --bottom-line-color:#e4e5e7;
     --fill-color-logo:#404145;
     --box-shadow: 0 0 .880517px rgba(0, 0, 0, .029), 0 0 2.29197px rgba(0, 0, 0, .03), 0 0 5.52px rgba(0, 0, 0, .054), 0 0 11px rgba(0, 0, 0, .09);
-    
+
+}
+
+:root{
+    /* this is the popular sections colors */
+    --pop-1-bg:#00732e;
+    --pop-2-bg:#ff7640;
+    --pop-3-bg:#003912;
+    --pop-4-bg:#4d1727;
+    --pop-5-bg:#687200;
+    --pop-6-bg:#421300;
+    --pop-7-bg:#be5272;
+    --pop-8-bg:#254200;
+    --pop-9-bg:#8f2900;
+    --pop-10-bg:#687200;
+    --pop-11-bg:#00732e;
+    --pop-12-bg:#be5272;
+    --pop-hover-bg:#ffffff;
 }
