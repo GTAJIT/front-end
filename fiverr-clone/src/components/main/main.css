@@ -49,7 +49,7 @@
 .pop-top {
     max-width: 1400px;
     display: flex;
-    overflow-x: auto;  /* Change from scroll to auto */
+    overflow-x: auto;
     scroll-behavior: smooth;
     position: relative;
     align-items: center;
@@ -69,7 +69,7 @@
     flex: none;
     overflow-x: auto;
     align-items: center;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 .pop-section-data {
@@ -121,9 +121,9 @@
     justify-content: center;
 }
 .backward-btn, .forward-btn{
-    position: absolute; /* Stays within .pop-top */
+    position: absolute;
     top: 50%;
-    transform: translateY(-50%); /* Centers vertically */
+    transform: translateY(-50%);
     width: 50px;
     height: 50px;
     display: flex;
@@ -133,8 +133,8 @@
     cursor: pointer;
     background-color: var(--bg-color);
     box-shadow: var(--box-shadow);
-    z-index: 10; /* Keeps them on top */
-    pointer-events: auto; /* Ensures buttons remain clickable */
+    z-index: 10;
+    /* pointer-events: auto; */
 }
 /* Left button */
 .backward-btn {
