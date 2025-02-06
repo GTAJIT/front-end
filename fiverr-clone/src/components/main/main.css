@@ -40,9 +40,18 @@
     font-family: "Macan", "helvertica Neue", Arial, Helvetica, sans-serif;
     margin-top: 10px;
 }
-
-.pop-section{
+.pop-top{
+    width: 1400px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+}
+.pop-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex:none;
+}
+.pop-section img{
+    width: 100%;
 }
