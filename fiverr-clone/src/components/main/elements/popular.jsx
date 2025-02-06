@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import '../main.css'; // Ensure to import your CSS file
 
 // const scrollContainer = document.querySelector(".pop-sec-merg");
@@ -80,7 +80,7 @@ function Popular() {
     }
   ];
 
-  const itemsPerPage = 5; // Show 5 items per page
+  const itemsPerPage = 6; // Show 5 items per page
   const totalPages = Math.ceil(popularServices.length / itemsPerPage);
 
   const handleSlide = (direction) => {
@@ -98,7 +98,7 @@ function Popular() {
 
   return (
     <div className="pop">
-      <div className="pop-text">Popular Services</div>
+      <div className="text-head">Popular Services</div>
       <div className="pop-container">
         <div 
           className={`nav-btn backward-btn ${currentPage === 0 ? 'disabled' : ''}`} 
