@@ -1,18 +1,6 @@
 import { useState, useRef } from 'react';
 import '../main.css'; // Ensure to import your CSS file
 
-// const scrollContainer = document.querySelector(".pop-sec-merg");
-// const backBtn = document.querySelector(".backward-btn");
-// const nextBtn = document.querySelector(".forward-btn");
-
-// backBtn.addEventListener("click", () => {
-//     scrollContainer.scrollBy({ left: -200, behavior: "smooth" });
-// });
-
-// nextBtn.addEventListener("click", () => {
-//     scrollContainer.scrollBy({ left: 200, behavior: "smooth" });
-// });
-
 function Popular() {
   const [currentPage, setCurrentPage] = useState(0);
   const scrollContainer = useRef(null);
